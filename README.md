@@ -15,10 +15,10 @@ Para garantir que o programa rode normalmente rode o comando **php artisan key:g
 Inicie o projeto: Utilize o comando php artisan serve para iniciar o projeto e acesse-o pelo endereço http://localhost:8000/ no seu navegador.
 <img src="img/telaInicial.PNG" alt="tela-Principal">
 
-No projeto foi adicionado um formulario onde pode se colocar area e largura 
+No projeto foi adicionado um formulario onde pode se colocar Altura e Largura 
 <img src="img/formulario.PNG" alt="tela-Principal">
 
-Também podemos validar se os campos estao sendo passados vazios 
+Também foi validado se os campos estao sendo passados vazios 
 <img src="img/DadosVazios.PNG" alt="tela-Principal">
 
 A resposta virá como uma modal na tela 
