@@ -1,0 +1,150 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: #FFF;
+    text-align: center;
+    line-height: 100px;
+}
+
+.centro{
+    text-align: center;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+
+    width: 95%;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-bottom: 10%;
+}
+
+.container{
+
+    margin-left: 5%;
+
+}
+.tamanhoFluido{
+    width:25%;
+    float: left;
+}
+
+@media (max-width: 1000px)
+{
+    .tamanhoFluido{
+        width:50%;
+        float: left;
+    }
+}
+#myModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    border: solid black 1px;
+    padding: 50px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px black;
+ }
+ .tamanhoFluido h2 {
+    font-size: 22px;
+    color:blue;
+ }
+ #myModal .centro button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background-color: #f44336;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#frase{
+    margin-top: 15%;
+}
+.tamanhoFluido label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tamanhoFluido input[type="text"] {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#decrement-btn, #increment-btn {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #f44336;
+    color: #fff;
+}
+#decrement-btn, #increment-btn, span#counter {
+    display: inline-block;
+    vertical-align: middle;
+}
+.tamanhoFluido h3{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+
+}
+button[type="submit"]{
+    background-color: #092dcc;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 7%;
+    margin-left: 45%;
+
+}
+button[type="submit"]:hover{
+    background-color: #c2c2c2;
+}
+
+#increment-btn{
+    margin-left: 3px;
+}
+
+.textoPrincipal{
+   margin-top:5%;
+   margin-bottom: 2%;
+   font-size: 22px;
+   font-weight: bolder;
+}
+
+.aviso{
+    margin-left: 8%;
+    margin-right:8%;
+    color: black;
+    padding: 2%;
+    border: solid black 1px;
+    box-shadow: 2px 2px 2px black;
+}
+.containerFormulario{
+    margin-top:2%;
+    margin-bottom:25%;
+    border: 1px solid black;
+    padding: 2%;
+    margin-left: 8%;
+    margin-right:8%;
+}
