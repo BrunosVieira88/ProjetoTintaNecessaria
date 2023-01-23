@@ -40,14 +40,18 @@ function camposVazios(){
         largura = document.getElementById("largura"+[index]).value;
 
         if (altura == "") {
-            alert("O campo altura"+[index] + " está vazio");
+           let mensagem ="O campo altura"+[index] + " está vazio";
+            openModal(mensagem);
             return false;
         }else if (largura == "") {
-            alert("O campo largura"+[index] + " está vazio");
+            let mensagem ="O campo largura"+[index] + " está vazio";
+            openModal(mensagem);
            return false;
         }
-        return true;
+
     }
+
+    return true;
 
 }
 //valida tamanho da parede
