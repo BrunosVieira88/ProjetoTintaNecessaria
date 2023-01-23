@@ -1,3 +1,4 @@
+@digitalrepublic, @thiagomontini , @nicoleteisen
 # ProjetoTintaNecessaria
  
 Faça o download do projeto: Baixe o projeto "ProjetoTintaNecessaria" em seu computador.
