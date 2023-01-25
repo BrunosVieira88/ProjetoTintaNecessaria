@@ -1,10 +1,13 @@
 function validaItens(campos){
 
     if(camposVazios()){
-        validaTamanhoParede();
-        validaPortaseJanelas();
-        validaTamanhoPorta();
-        calculaQntdTinta();
+        if (validaTamanhoParede()) {
+            if ( validaTamanhoPorta()) {
+               if(validaPortaseJanelas()){
+                    calculaQntdTinta();
+               }
+            }
+        }
     }
 }
 numeroPortas =0;
@@ -61,9 +64,10 @@ function validaTamanhoParede() {
 
         var largura = document.getElementById("largura" + i).value;
         var altura = document.getElementById("altura" + i).value;
-        validatotal = largura * altura;
-        if (validatotal < 1 || validatotal > 50) {
-            alert("As medidas da parede " + i + " devem estar entre 1 e 50 metros quadrados.");
+        validaTotal = largura * altura;
+        if (validaTotal < 1 || validaTotal > 50) {
+            mensagem = "As medidas da parede" + i + " tem "+validaTotal+"m² as medidas devem estar entre 1 e 50 metros quadrados.";
+            openModal(mensagem);
             return false;
         }
     }
@@ -79,7 +83,8 @@ function validaPortaseJanelas() {
         var areaJanela = document.getElementById("counter-janela" + i).innerHTML * 2 * 1.2;
         var areaPorta = document.getElementById("counter-porta" + i).innerHTML * 0.8 * 1.9;
         if (areaJanela + areaPorta > 0.5 * largura * altura) {
-            alert("A área total das janelas e portas da parede " + i + " não pode ser maior que 50% da área da parede.");
+            mensagem = "A área total das janelas e portas da parede " + i + " não pode ser maior que 50% da área da parede.";
+            openModal(mensagem);
             return false;
         }
     }
@@ -92,7 +97,8 @@ function validaTamanhoPorta() {
         var altura = document.getElementById("altura" + i).value;
         var portas = document.getElementById("counter-porta" + i).innerHTML;
         if (portas > 0 && altura < 2.3) {
-            alert("A altura da parede " + i + " com porta deve ser no mínimo 2.3 metros.");
+            mensagem ="A altura da parede " + i + " com porta deve ser no mínimo 2.3 metros.";
+            openModal(mensagem);
             return false;
         }
     }
