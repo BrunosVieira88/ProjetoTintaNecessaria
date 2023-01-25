@@ -31,9 +31,11 @@ Após isso, acesse o endereço http://localhost:8000/ no seu navegador. E o prog
 <img src="img/telaInicial.PNG" style="width: 85%;" alt="tela-Principal">
 
 1.Nenhuma parede pode ter menos de 1 metro quadrado nem mais de 50 metros quadrados, mas podem possuir alturas e larguras diferentes
+
 7.Não considerar teto nem piso.
 
 Código e layout da regra
+
 <img src="img/1regra.PNG" style="width: 85%;" alt="tela-Principal">
 <img src="img/regra1layout.PNG" style="width: 85%;" alt="tela-Principal">
 
@@ -44,18 +46,23 @@ Código e layout da regra
 5.Cada porta possui as medidas: 0,80 x 1,90
 
 Código e layout da regra
+
 <img src="img/50porcento.PNG" style="width: 85%;" alt="tela-Principal">
 <img src="img/layout50.PNG" style="width: 85%;" alt="tela-Principal">
 
 3.A altura de paredes com porta deve ser, no mínimo, 30 centímetros maior que a altura da porta
+
 Código e layout da regra
 
 <img src="img/codigoregra3.PNG" style="width: 85%;" alt="tela-Principal">
 <img src="img/layoutregra3.PNG" style="width: 85%;" alt="tela-Principal">
 
 6.Cada litro de tinta é capaz de pintar 5m²
+
 8.As variações de tamanho das latas de tinta são: (0,5 L),(2,5 L),(3,6 L) e (18 L)
+
 Código e layout da regra
+
 <img src="img/usoModal.PNG" style="width: 85%;" alt="tela-Principal">
 <img src="img/latasTinta.PNG" style="width: 85%;" alt="tela-Principal">
 
