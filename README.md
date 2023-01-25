@@ -48,6 +48,7 @@ Código e layout da regra
 
 3.A altura de paredes com porta deve ser, no mínimo, 30 centímetros maior que a altura da porta
 Código e layout da regra
+
 <img src="img/codigoregra3.PNG" style="width: 85%;" alt="tela-Principal">
 <img src="img/layoutregra3.PNG" style="width: 85%;" alt="tela-Principal">
  
