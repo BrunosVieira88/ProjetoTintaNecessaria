@@ -96,8 +96,8 @@ function validaTamanhoPorta() {
     for (var i = 1; i <= 4; i++) {
         var altura = document.getElementById("altura" + i).value;
         var portas = document.getElementById("counter-porta" + i).innerHTML;
-        if (portas > 0 && altura < 2.3) {
-            mensagem ="A altura da parede " + i + " com porta deve ser no mínimo 2.3 metros.";
+        if (portas > 0 && altura < 2.2) {
+            mensagem ="A altura da parede " + i + " com porta deve ser no mínimo 2.2 metros.";
             openModal(mensagem);
             return false;
         }
