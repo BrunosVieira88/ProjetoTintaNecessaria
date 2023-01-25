@@ -61,8 +61,8 @@ function validaTamanhoParede() {
 
         var largura = document.getElementById("largura" + i).value;
         var altura = document.getElementById("altura" + i).value;
-
-        if (largura < 1 || largura > 50 || altura < 1 || altura > 50) {
+        validatotal = largura * altura;
+        if (validatotal < 1 || validatotal > 50) {
             alert("As medidas da parede " + i + " devem estar entre 1 e 50 metros quadrados.");
             return false;
         }
