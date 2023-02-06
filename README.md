@@ -1,5 +1,18 @@
-@digitalrepublic, @thiagomontini , @nicoleteisen
+
 # ProjetoTintaNecessaria
+Um programa que recebe o tamanho e largura de uma parede e calcula quanto de tinta será necessario para pinta-la, onde você poderá colocar portas e janelas nas mesmas e será descontado essa aréa.
+
+##Respeitando as regras abaixo:
+
+1.Nenhuma parede pode ter menos de 1 metro quadrado nem mais de 50 metros quadrados, mas podem possuir alturas e larguras diferentes
+2.O total de área das portas e janelas deve ser no máximo 50% da área de parede
+3.A altura de paredes com porta deve ser, no mínimo, 30 centímetros maior que a altura da porta
+4.Cada janela possui as medidas: 2,00 x 1,20 mtos
+5.Cada porta possui as medidas: 0,80 x 1,90
+6.Cada litro de tinta é capaz de pintar 5m²
+7.Não considerar teto nem piso.
+8.As variações de tamanho das latas de tinta são: (0,5 L),(2,5 L),(3,6 L) e (18 L)
+
  
 Faça o download do projeto: Baixe o projeto "ProjetoTintaNecessaria" em seu computador.
 você deve clicar no botão em amarelo. Será baixado o arquivo no formato .zip
