@@ -2,7 +2,7 @@
 # ProjetoTintaNecessaria
 Um programa que recebe o tamanho e largura de uma parede e calcula quanto de tinta será necessario para pinta-la, onde você poderá colocar portas e janelas nas mesmas e será descontado essa aréa.
 
-##Respeitando as regras abaixo:
+#Respeitando as regras abaixo:
 
 1.Nenhuma parede pode ter menos de 1 metro quadrado nem mais de 50 metros quadrados, mas podem possuir alturas e larguras diferentes
 
